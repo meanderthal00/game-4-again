@@ -1,0 +1,57 @@
+
+
+header{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: -150px;
+    font-family: "Lakki Reddy", cursive;
+    color: moccasin;
+   
+}
+.expo{
+    background-image: url("../images/scroll.png");
+    background-size: cover;
+  
+}
+body{
+    background-image: url( "../images/wallpaper.png");
+    background-size: cover;  
+}
+
+
+.jumbotron{
+    background-image: url("../images/jumbo2.gif");
+    /* background-size: cover; */
+
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: "Lakki Reddy", cursive;
+}
+
+.panel-title{
+    text-align: center;
+    color: moccasin;
+    font-family: "Lakki Reddy", cursive;
+
+}
+.panel-body{
+    background-image: url("../images/scroll.png");
+    text-align: center;
+    font-family: "Lakki Reddy", cursive;
+    
+}
+h3{
+    /* Cant seem to get the font color to change here */
+    text-align: center;
+    color: white;
+    font-family: "Lakki Reddy", cursive;
+}
+.footer{
+    text-align: center;
+    font-family: "Lakki Reddy", cursive;
+}
