@@ -5,7 +5,7 @@ $(document).ready(function () {
     var counter3 = Math.floor((Math.random() * 11) + 1);
     var counter4 = Math.floor((Math.random() * 11) + 1);
     // random target number generates below the min number
-    var targetNumber = Math.floor((Math.random() * 119 - 19) + 1);
+    var targetNumber = Math.floor((Math.random() * 119 + 19) + 1);
     var scoreTotal = 0
     // var playerTotal = 0
     // parseInt(counter1) + parseInt(counter2) + parseInt(counter3) + parseInt(counter4);
@@ -46,7 +46,7 @@ $(document).ready(function () {
 
 
     // this loop is not working
-    if (scoreTotal === targetNumber) {
+    if (scoreTotal == targetNumber) {
         alert(person +" is triumphant!");
        $("#wins").html(wins++); 
 
@@ -64,5 +64,5 @@ $(document).ready(function () {
 });
 
 // still need a game reset
-// working on the addition of the clicks to create a running score total
+
 // accounting for victories and losses
